@@ -1,0 +1,27 @@
+nav{
+    height: 30px;
+    background-color: lightblue;
+}
+
+header{
+    height: 200px;
+    background-color: lightcoral;
+}
+
+main{
+    background-color: lightgray;
+}
+
+footer{
+    height: 150px;
+    background-color: lightgreen;
+}
+
+.bandeira-brasil{
+    height: 25px;
+}
+
+.link-gov{
+    color: gray;
+    text-decoration: none;
+}
