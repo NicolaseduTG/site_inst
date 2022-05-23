@@ -4,16 +4,17 @@ nav{
 }
 
 header{
-    height: 200px;
+    height: 400px;
     background-color: lightcoral;
 }
 
 main{
     background-color: lightgray;
+    height: 1000px;
 }
 
 footer{
-    height: 150px;
+    height: 250px;
     background-color: lightgreen;
 }
 
@@ -21,7 +22,7 @@ footer{
     height: 25px;
 }
 
-.link-gov{
-    color: gray;
+.link{
+    color: black;
     text-decoration: none;
 }
