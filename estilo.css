@@ -1,11 +1,12 @@
 nav{
     height: 30px;
-    background-color: lightblue;
+    background-color: black;
 }
 
 header{
     height: 400px;
     background-color: lightcoral;
+    margin-top: 1px;
 }
 
 main{
@@ -18,11 +19,15 @@ footer{
     background-color: lightgreen;
 }
 
+.banner{
+    width: 100%;
+}
+
 .bandeira-brasil{
     height: 25px;
 }
 
 .link{
-    color: black;
+    color: white;
     text-decoration: none;
 }
