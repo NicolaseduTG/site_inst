@@ -5,8 +5,6 @@ nav{
 
 header{
     height: 400px;
-    background-color: lightcoral;
-    margin-top: 1px;
 }
 
 main{
@@ -21,10 +19,6 @@ footer{
 
 .banner{
     width: 100%;
-}
-
-.bandeira-brasil{
-    height: 25px;
 }
 
 .link{
