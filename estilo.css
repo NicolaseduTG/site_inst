@@ -14,7 +14,24 @@ main{
 
 footer{
     height: 250px;
-    background-color: lightgreen;
+}
+
+ul{
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.f1{
+    background-color: #103424;
+    width: 1200px;
+}
+
+.f2{
+    color:  #103424;
+    font-size: 50px;
+    font-family: monospace;
+    width: 1000px;
+    padding-left: 50px;
 }
 
 .banner{
@@ -24,4 +41,10 @@ footer{
 .link{
     color: white;
     text-decoration: none;
+}
+
+.link-f{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
 }
