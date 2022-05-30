@@ -2,10 +2,6 @@ nav{
     background-color: black;
 }
 
-main{
-    background-color: lightgray;
-    height: 1000px;
-}
 
 div{
     width: 100%;
@@ -22,6 +18,18 @@ div{
     font-family: monospace;
     width: 1000px;
     padding-left: 50px;
+}
+
+.f3{
+    color: black;
+    font-size: 66px;
+    font-family: monospace;
+}
+
+.f4{
+    color: black;
+    font-size: 24px;
+    font-family: monospace;
 }
 
 .banner{
