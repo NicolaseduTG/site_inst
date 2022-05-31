@@ -32,6 +32,11 @@ div{
     font-family: monospace;
 }
 
+.f5{
+    color: #103424;
+    font-family: monospace;
+}
+
 .banner{
     width: 100%;
 }
@@ -94,4 +99,8 @@ section.resume-section {
 .img-e{
     width: 70%;
     box-shadow: 5px 5px #103424;
+}
+
+.img-m{
+    width: 50%;
 }
