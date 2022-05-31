@@ -10,18 +10,36 @@
 </head>
 <body>
     <!--nav-->
-    <nav>
-        <div class="container">
-            <div class="row border text-center">
-                <div class="col border"><a class="link" href="http://127.0.0.1:5500/index.html">Início</a></div>
-                <div class="col border"><a class="link" href="http://127.0.0.1:5500/produto.html">Produtos</a></div>
-                <div class="col border"><a class="link" href="http://127.0.0.1:5500/seguranca.html">Segurança</a></div>
-                <div class="col border"><a class="link" href="http://127.0.0.1:5500/endereco.html">Endereço</a></div>
-                <div class="col border"><a class="link" href="http://127.0.0.1:5500/participe.html">Trabalhe Aqui</a></div>
-                <div class="col border"><a class="link" href="http://127.0.0.1:5500/contatos.html">Contatos</a></div>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">GÁS E ÁGUA TG</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/produto.html">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/seguranca.html">Segurança</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/endereco.html">Endereço</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/participe.html">Trabalhe Aqui</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/contatos.html">Contatos</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!--header-->
     <header>
         <div>
@@ -30,15 +48,111 @@
     </header>
     <!--conteudo-->
     <main>
-        <div>
-            
+        <div class="container mt-4">
+            <div class="row mt-3">
+              <div class="f3 mt-3">
+                <h1>DESEJA SE TORNAR UM AFILIADO? MANDE ALGUMAS DE SUAS INFORMAÇÕES PARA NÓS!</h1>
+              </div>
+              <div class="col-md-12 mt-3">
+                <form class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputValue" placeholder="Nome:" value="Nome:">
+                  <label for="floatingInputValue">Digite seu nome completo</label>
+                </form>
+              </div>
+              <div class="col-md-6 mt-3">
+                <form class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputValue" placeholder="nome@exemplo.com" value="nome@exemplo.com">
+                  <label for="floatingInputValue">Digite o seu email!</label>
+                </form>
+              </div>
+              <div class="col-md-3 mt-3">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="(XX) XXXXX-XXXX" value="(XX) XXXXX-XXXX">
+                  <label for="floatingInputGrid">Número de telefone</label>
+                </div>
+              </div>
+              <div class="col-md-3 mt-3">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="(XX) XXXXX-XXXX" value="(XX) XXXXX-XXXX">
+                  <label for="floatingInputGrid">Outro Contato</label>
+                </div>
+              </div>
+              <div class="form-floating col-md-2 mt-3">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>SC</option>
+                  <option value="2">PR</option>
+                  <option value="3">RS</option>
+                </select>
+                <label for="floatingSelect">Selecione seu estado</label>
+              </div>
+              <div class="col-md-6 mt-3">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="" value="">
+                  <label for="floatingInputGrid">Cidade</label>
+                </div>
+              </div>
+              <div class="col-md-4 mt-3">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="XXXXX-XX" value="XXXXX-XXX">
+                  <label for="floatingInputGrid">CEP</label>
+                </div>
+              </div>
+              <div class="col-md-6 mt-3">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="Rua..." value="Rua...">
+                  <label for="floatingInputGrid">Endereço</label>
+                </div>
+              </div>
+              <div class="col-md-6 mt-3">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="Bairro..." value="Bairro...">
+                  <label for="floatingInputGrid">Bairro</label>
+                </div>
+              </div>
+              <div class="form-floating mt-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Mais alguma informação sobre voce?</label>
+              </div>
+              <div class="col-12 mt-3">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </div>
         </div>
     </main>
     <!--links-->
-    <footer>
-        <div>
-            
+    <footer class="mt-4">
+      <div class="container d-none d-sm-block m-0 p-0">
+        <div class="d-flex">
+            <div class="d-flex">
+                <div class="img-f">
+                    <img src="banners/footer.png" alt="logo">
+                </div>
+                <div class="f1">
+                    <ul class="mt-5">
+                        <li><a class="link-f" href="http://127.0.0.1:5500/index.html">Início</a></li>
+                        <li><a class="link-f" href="http://127.0.0.1:5500/produto.html">Produtos</a></li>
+                        <li><a class="link-f" href="http://127.0.0.1:5500/seguranca.html">Segurança</a></li>
+                        <li><a class="link-f" href="http://127.0.0.1:5500/endereco.html">Endereço</a></li>
+                        <li><a class="link-f" href="http://127.0.0.1:5500/participe.html">Trabalhe Aqui</a></li>
+                        <li><a class="link-f" href="http://127.0.0.1:5500/contatos.html">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f2">
+                <p>QUALIDADE EM TRANSPORTE, TEM AQUI!</p>
+            </div>
         </div>
+    </div>
+    <div class="d-block d-sm-none f1">
+      <ul>
+          <li><a class="link-f" href="http://127.0.0.1:5500/index.html">Início</a></li>
+          <li><a class="link-f" href="http://127.0.0.1:5500/produto.html">Produtos</a></li>
+          <li><a class="link-f" href="http://127.0.0.1:5500/seguranca.html">Segurança</a></li>
+          <li><a class="link-f" href="http://127.0.0.1:5500/endereco.html">Endereço</a></li>
+          <li><a class="link-f" href="http://127.0.0.1:5500/participe.html">Trabalhe Aqui</a></li>
+          <li><a class="link-f" href="http://127.0.0.1:5500/contatos.html">Contatos</a></li>
+      </ul>
+  </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
